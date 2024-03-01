@@ -15,3 +15,9 @@ for lan in lan where lan != "b" {
 for i in 1...15{
     print(i)
 }
+
+
+//for loop with Stride function
+for i in stride(from: 1, to: 10, by: 2){
+    print(i)
+}
