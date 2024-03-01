@@ -8,3 +8,13 @@ this is value
 this is aman
 """
 print(string)
+
+//Empty String
+ var String = ""
+
+if String.isEmpty{
+    print("This is empty string")
+}
+else{
+    print("this is not empty string")
+}
