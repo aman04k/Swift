@@ -10,3 +10,8 @@ let lan = ["a", "b", "c", "d"]
 for lan in lan where lan != "b" {
     print(lan)
 }
+
+// for loop with range
+for i in 1...15{
+    print(i)
+}
