@@ -19,7 +19,7 @@ else{
     print("this is not empty string")
 }
 
-//other method find to string
+//other method find to empty string
 let aman = String(456)
 
 if aman.isEmpty{
@@ -28,3 +28,17 @@ if aman.isEmpty{
 else{
     print("this is not empty string")
 }
+
+//String Interpolation
+
+ var varA = 20                         //output=> varA =20, constA=  100 , varC = 200
+let constA = 100
+var varC:Float = 20.0
+
+var stringA = ( "\(varA) times \(constA) is equal to \(varC * 100)")
+print( stringA )
+let constA = 100
+var varC:Float = 20.0
+
+var stringA = ( "\(varA) times \(constA) is equal to \(varC * 100)")
+print( stringA )
