@@ -48,3 +48,15 @@ let constA = "hello, "
 let constB = "aman"               // o/p => hello, aman
 var String = constA + constB
 print(String)
+
+//comprasion two string
+
+var varA = "hello"
+var varB = "aman"
+
+if varA == varB{
+    print("\(varA) and \(varB) are equal" )
+}
+else{
+    print("not equal")
+}
