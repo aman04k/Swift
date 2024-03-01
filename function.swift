@@ -13,3 +13,15 @@ print(student(name: "About Functions"))
  }
  print(display(number: 200))
  print(display(number: 100))
+
+//  Functions without Parameters
+// SYNTAX and example
+func name() -> datatype{
+          return datatype
+}
+
+func device() -> String{
+return "aman"              //o/p=> aman
+}
+print(device())
+
