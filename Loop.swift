@@ -22,4 +22,4 @@ for i in 1...15{
 stride(from: startValue, to: endValue, by: strideValue)
 for i in stride(from: 1, to: 10, by: 2){
     print(i)
-}
+}         
