@@ -42,3 +42,9 @@ var varC:Float = 20.0
 
 var stringA = ( "\(varA) times \(constA) is equal to \(varC * 100)")
 print( stringA )
+
+//String Concatenation
+let constA = "hello, "
+let constB = "aman"               // o/p => hello, aman
+var String = constA + constB
+print(String)
