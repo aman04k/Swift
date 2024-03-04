@@ -7,6 +7,11 @@
  print("Sum = \(sum)")
 
  //SWIFT - DOUBLE
+
+/* It has precision of at least 15 decimal digits.
+Memory size is of 8 bytes.
+If no data type is defined, then compiler will treat it as Double  */ 
+
  let num : Double = 23.455
 
 
