@@ -47,3 +47,17 @@ If no data type is defined, then compiler will treat it as Double  */
       print("my car color is not red")
   }
 
+//  program to combine boolean with logical operator.
+let isUsername = true
+let isPassword = true
+let hasAdminAccess = false
+let isUserAccount = true
+
+let finalAccess = isUsername && isPassword && (hasAdminAccess || isUserAccount)
+
+if finalAccess {
+    print("Welcome to the admin panel")
+}
+else{
+    print("You are not allowed to access admin panel")
+}
