@@ -60,3 +60,12 @@ if varA == varB{
 else{
     print("not equal")
 }
+
+
+//IF- ELSE CONDITION
+var element: Any = "hello" // Define element as Any type to allow multiple types
+if element is String {
+    print("This is a String")
+} else {
+    print("This is not a String")
+}
